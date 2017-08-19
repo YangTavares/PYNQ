@@ -1,0 +1,46 @@
+% ExampleMapFile1.txt
+% Copyright (C) 2011 Cornell University
+% This code is released under the open-source BSD license.  A copy of this
+% license should be provided with the software.  If not, email:
+% CreateMatlabSim@gmail.com
+
+% File containing map information
+
+% Formatting:
+% wall x1 y1 x2 y2
+%   Order does not matter between the points
+% line x1 y1 x2 y2
+% beacon x y [r g b] ID_tag
+%   [r g b] is the red-green-blue color vector
+% virtwall x y theta
+%   Virtual walls emit from a location, not like real walls
+%   theta is the angle relative to the positive x-axis
+
+wall -1.698 3.630 0.353 3.570
+wall 1.112 3.290 2.905 4.070
+wall 2.905 4.070 2.302 1.590
+wall 2.302 1.590 4.457 2.710
+wall 4.457 2.710 3.750 -0.110
+wall 2.905 -0.790 2.905 -4.330
+wall 2.905 -4.330 3.647 -4.330
+wall 3.647 -4.330 3.647 -0.790
+wall 3.647 -0.790 2.905 -0.790
+line -2.181 3.610 -3.595 2.210
+line -2.871 1.570 -4.457 0.930
+line -4.457 0.930 -2.991 -0.250
+line -2.991 -0.250 -4.612 -1.170
+line -4.612 -1.170 -2.905 -1.950
+line -0.974 1.010 -0.974 -1.090
+line -0.974 -1.090 0.905 -1.090
+line 0.905 -1.090 0.905 1.010
+line 0.905 1.010 -0.974 1.010
+beacon -0.026 -0.030 [0.0 0.0 0.0] k
+beacon 1.164 1.190 [1.0 1.0 1.0] w
+beacon 1.267 -1.310 [1.0 0.0 0.0] r
+beacon -1.112 -1.450 [0.0 0.0 1.0] b
+beacon -1.250 1.290 [1.0 0.0 1.0] m
+beacon 3.991 2.030 [0.0 1.0 1.0] c
+beacon 2.440 3.590 [0.0 1.0 0.0] g
+beacon -2.698 -0.250 [1.0 1.0 0.0] y
+virtwall -3.164 -2.390 -0.633 1
+virtwall 2.560 -3.390 -2.725 2

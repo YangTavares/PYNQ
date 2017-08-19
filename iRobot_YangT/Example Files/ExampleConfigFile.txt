@@ -1,0 +1,15 @@
+% ExampleConfigFile.txt
+% Copyright (C) 2011 Cornell University
+% This code is released under the open-source BSD license.  A copy of this
+% license should be provided with the software.  If not, email:
+% CreateMatlabSim@gmail.com
+
+% SensorName NoiseMean NoiseStandardDev
+wall 0.00000 0.01000
+cliff 3.00000 6.90000
+odometry -0.02000 0.06000
+sonar 0.00000 0.00400
+lidar 0.00000 0.00100
+camera 0.00000 0.02000
+
+com_delay 0.1
